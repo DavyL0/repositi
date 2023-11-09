@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    
+    <title>Gerador de Senha</title>
+</head>
+<header>
+    <h1 class="titulo">Your<img src="Imagens/icon.png">Pass</h1>
+</header>
+<body>
+    <section class="detals">
+        <div class="left">
+            <label for="number" class="texto_label">Quantos Caracteres sua Senha Tem?</label><br>
+        <input type="number" id="quantChar" class="input-padrao" required placeholder="0">
+        </div>
+        <div class="right">
+            <label for="radio"  class="texto_label">Letras Maiúsculas e Minúsculas?</label>
+            <input type="radio" id="radio" class="input-padrao" required placeholder="0"><br>
+            <label for="radio"  class="texto_label">Com Números?</label>
+            <input type="radio" id="radio" class="input-padrao" required placeholder="0"><br>
+            <label for="radio"  class="texto_label">Com Caracteres Especiais?</label>
+            <input type="radio" id="radio" class="input-padrao" required placeholder="0">
+        </div>
+        
+    </section>
+    <button class="button">Gerar</button>
+ <script src="main.js"></script>   
+</body>
+</html>
